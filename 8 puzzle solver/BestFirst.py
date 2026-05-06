@@ -85,7 +85,6 @@ def main(page: ft.Page):
     page.title = "8 Puzzle Best First Search"
     page.theme_mode = ft.ThemeMode.DARK
     page.window_width = 700
-    page.scroll = "auto"
     
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
