@@ -2,7 +2,7 @@ import flet as ft
 import random
 import time
 import heapq
-
+# simple astar algorithm
 def is_solvable(state):
     flat = [n for n in state if n != 0]
     inv = sum(flat[i] > flat[j] for i in range(len(flat)) for j in range(i+1, len(flat)))
